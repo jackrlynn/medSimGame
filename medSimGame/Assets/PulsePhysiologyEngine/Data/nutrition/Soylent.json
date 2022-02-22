@@ -1,3 +1,56 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63c3cfce08741ba6a20db8180cce438bdaf009d7e0eefb75b57995067737a2cf
-size 846
+{
+  "Carbohydrate": {
+    "ScalarMass": {
+      "Value": 57.0,
+      "Unit": "g"
+    }
+  },
+  "CarbohydrateDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 1.083,
+      "Unit": "g/min"
+    }
+  },
+  "Fat": {
+    "ScalarMass": {
+      "Value": 23.0,
+      "Unit": "g"
+    }
+  },
+  "FatDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 0.055,
+      "Unit": "g/min"
+    }
+  },
+  "Protein": {
+    "ScalarMass": {
+      "Value": 20.0,
+      "Unit": "g"
+    }
+  },
+  "ProteinDigestionRate": {
+    "ScalarMassPerTime": {
+      "Value": 0.157,
+      "Unit": "g/min"
+    }
+  },
+  "Calcium": {
+    "ScalarMass": {
+      "Value": 300.0,
+      "Unit": "mg"
+    }
+  },
+  "Sodium": {
+    "ScalarMass": {
+      "Value": 380.0,
+      "Unit": "mg"
+    }
+  },
+  "Water": {
+    "ScalarVolume": {
+      "Value": 1.0,
+      "Unit": "L"
+    }
+  }
+}

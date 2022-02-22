@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6790dca64045b6f85122af19d356bf82882d8f7c65ccb2c3565e36259b08a55a
-size 1169
+{
+  "Name": "Calcium",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 40.08,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 0.018,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Positive",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": 0.99
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": "Infinity",
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  }
+}

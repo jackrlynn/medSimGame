@@ -1,3 +1,51 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6abb26cb9d61f79fc0b67138a9bc0261218c86e50d2e46e8de61c1f25f79365d
-size 819
+{
+  "Name": "Carol",
+  "Sex": "Female",
+  "Age": {
+    "ScalarTime": {
+      "Value": 40.0,
+      "Unit": "yr"
+    }
+  },
+  "Weight": {
+    "ScalarMass": {
+      "Value": 160.0,
+      "Unit": "lb"
+    }
+  },
+  "Height": {
+    "ScalarLength": {
+      "Value": 66.0,
+      "Unit": "in"
+    }
+  },
+  "BodyFatFraction": {
+    "Scalar0To1": {
+      "Value": 0.25
+    }
+  },
+  "DiastolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 73.5,
+      "Unit": "mmHg"
+    }
+  },
+  "HeartRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 72.0,
+      "Unit": "1/min"
+    }
+  },
+  "RespirationRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 18.0,
+      "Unit": "1/min"
+    }
+  },
+  "SystolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 114.0,
+      "Unit": "mmHg"
+    }
+  }
+}

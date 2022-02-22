@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:907fe2ce2e06812bac00af441f91ef0491a5ed76d3b73b66ff86a589af0c1bab
-size 161
+{
+  "Name": "Carboxyhemoglobin",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 64570.04,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Molecular"
+}

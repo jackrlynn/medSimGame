@@ -1,3 +1,58 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:26534fc0f767d259626b57ec0349f120626186cf217946d59d2ac8040599c79c
-size 1173
+{
+  "Name": "Albumin",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 66500.0,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "SystemicClearance": {
+      "FractionExcretedInFeces": {
+        "Scalar0To1": {
+        }
+      },
+      "FractionUnboundInPlasma": {
+        "Scalar0To1": {
+          "Value": 1.0
+        }
+      },
+      "IntrinsicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "RenalClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Unit": "mL/min kg"
+        }
+      },
+      "SystemicClearance": {
+        "ScalarVolumePerTimeMass": {
+          "Value": 0.00241,
+          "Unit": "mL/min kg"
+        }
+      }
+    },
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Negative",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": "Infinity"
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": 30.0,
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  }
+}

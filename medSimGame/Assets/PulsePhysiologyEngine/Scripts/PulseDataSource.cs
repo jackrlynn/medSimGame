@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe13b02605e48ab1ca8a7bdfc89002b0b9ae3512564968e403382a2dea7087ec
-size 326
+﻿/* Distributed under the Apache License, Version 2.0.
+   See accompanying NOTICE file for details.*/
+
+using UnityEngine;
+
+// Abstract class for any pulse data source that holds a reference
+// to the pulse data container
+public abstract class PulseDataSource : MonoBehaviour
+{
+  [HideInInspector]
+  public PulseData data;
+}

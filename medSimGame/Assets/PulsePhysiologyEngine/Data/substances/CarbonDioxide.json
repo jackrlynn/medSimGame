@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:47eb69fa265e56c05111af24f9494eece11cc2949d75abaa054277d5997a239c
-size 422
+{
+  "Name": "CarbonDioxide",
+  "Density": {
+    "ScalarMassPerVolume": {
+      "Value": 1842.12,
+      "Unit": "g/m^3"
+    }
+  },
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 44.01,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Gas",
+  "RelativeDiffusionCoefficient": {
+    "Value": 20.3
+  },
+  "SolubilityCoefficient": {
+    "ScalarInversePressure": {
+      "Value": 0.57,
+      "Unit": "1/atm"
+    }
+  }
+}

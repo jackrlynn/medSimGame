@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f6e1f6d3643489905576742c35613e960de90107db59b6867dd10812fc82dc33
-size 477
+{
+  "Name": "Saline",
+  "Component": [{
+    "Name": "Sodium",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.323,
+        "Unit": "g/dL"
+      }
+    }
+  }, {
+    "Name": "Oxygen",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 0.0329,
+        "Unit": "g/L"
+      }
+    }
+  }, {
+    "Name": "CarbonDioxide",
+    "Concentration": {
+      "ScalarMassPerVolume": {
+        "Value": 1.013,
+        "Unit": "g/L"
+      }
+    }
+  }]
+}

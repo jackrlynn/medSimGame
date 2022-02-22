@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cf4e16206085c0593c31143dc4334f6bda37e58996c6f11da8a0f4857be76213
-size 800
+{
+  "Name": "Rick",
+  "Age": {
+    "ScalarTime": {
+      "Value": 23.0,
+      "Unit": "yr"
+    }
+  },
+  "Weight": {
+    "ScalarMass": {
+      "Value": 161.0,
+      "Unit": "lb"
+    }
+  },
+  "Height": {
+    "ScalarLength": {
+      "Value": 68.0,
+      "Unit": "in"
+    }
+  },
+  "BodyFatFraction": {
+    "Scalar0To1": {
+      "Value": 0.18
+    }
+  },
+  "DiastolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 80.0,
+      "Unit": "mmHg"
+    }
+  },
+  "HeartRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 100.0,
+      "Unit": "1/min"
+    }
+  },
+  "RespirationRateBaseline": {
+    "ScalarFrequency": {
+      "Value": 16.0,
+      "Unit": "1/min"
+    }
+  },
+  "SystolicArterialPressureBaseline": {
+    "ScalarPressure": {
+      "Value": 120.0,
+      "Unit": "mmHg"
+    }
+  }
+}

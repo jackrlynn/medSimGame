@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:74c3a147d673712db7793763a32aeba3ec79f30d787161d8ae8a8dacdd139fcd
-size 584
+{
+  "Name": "Urea",
+  "MolarMass": {
+    "ScalarMassPerAmount": {
+      "Value": 60.06,
+      "Unit": "g/mol"
+    }
+  },
+  "State": "Liquid",
+  "Clearance": {
+    "RenalClearance": {
+      "Regulation": {
+        "ChargeInBlood": "Neutral",
+        "FractionUnboundInPlasma": {
+          "Scalar0To1": {
+            "Value": 1.0
+          }
+        },
+        "ReabsorptionRatio": {
+          "Value": 0.01
+        },
+        "TransportMaximum": {
+          "ScalarMassPerTime": {
+            "Value": "Infinity",
+            "Unit": "mg/min"
+          }
+        }
+      }
+    }
+  }
+}
