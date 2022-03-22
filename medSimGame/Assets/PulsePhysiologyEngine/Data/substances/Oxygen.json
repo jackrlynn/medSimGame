@@ -1,25 +1,3 @@
-{
-  "Name": "Oxygen",
-  "Density": {
-    "ScalarMassPerVolume": {
-      "Value": 1429.0,
-      "Unit": "g/m^3"
-    }
-  },
-  "MolarMass": {
-    "ScalarMassPerAmount": {
-      "Value": 32.0,
-      "Unit": "g/mol"
-    }
-  },
-  "State": "Gas",
-  "RelativeDiffusionCoefficient": {
-    "Value": 1.0
-  },
-  "SolubilityCoefficient": {
-    "ScalarInversePressure": {
-      "Value": 0.024,
-      "Unit": "1/atm"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e738dce237d0766b6d92247302809e33592e4956c3239f8630eb3ab0b0499f3
+size 413

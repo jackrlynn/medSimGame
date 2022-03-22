@@ -1,31 +1,3 @@
-{
-  "Name": "Sodium",
-  "MolarMass": {
-    "ScalarMassPerAmount": {
-      "Value": 22.9898,
-      "Unit": "g/mol"
-    }
-  },
-  "State": "Liquid",
-  "Clearance": {
-    "RenalClearance": {
-      "Regulation": {
-        "ChargeInBlood": "Positive",
-        "FractionUnboundInPlasma": {
-          "Scalar0To1": {
-            "Value": 1.0
-          }
-        },
-        "ReabsorptionRatio": {
-          "Value": 1.0
-        },
-        "TransportMaximum": {
-          "ScalarMassPerTime": {
-            "Value": "Infinity",
-            "Unit": "mg/min"
-          }
-        }
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d33a51c0a126f7d79e41a34822ea0c95200b9ed4af28a3b86306af6e450da54c
+size 588

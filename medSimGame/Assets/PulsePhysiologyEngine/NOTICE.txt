@@ -1,15 +1,3 @@
-------------------------------------------------------------------------------
-
-This product includes software developed by Kitware, Inc. and Contributors.
-
-Pulse Physiology Simulation Engine Explorer
-Copyright 2018 Kitware, Inc. and Contributors
-Distributed under the Apache License, Version 2.0.
-
-The following individuals and institutions are among the Contributors:
-
---
-
-See version control history for details of individual contributions.
-
-------------------------------------------------------------------------------
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae5ce8ae4776a32803b75efce82b4984d6697383fb6f857ac482d42fd95c4be7
+size 524

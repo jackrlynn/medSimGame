@@ -1,31 +1,3 @@
-{
-  "Name": "Chloride",
-  "MolarMass": {
-    "ScalarMassPerAmount": {
-      "Value": 35.45,
-      "Unit": "g/mol"
-    }
-  },
-  "State": "Liquid",
-  "Clearance": {
-    "RenalClearance": {
-      "Regulation": {
-        "ChargeInBlood": "Negative",
-        "FractionUnboundInPlasma": {
-          "Scalar0To1": {
-            "Value": 1.0
-          }
-        },
-        "ReabsorptionRatio": {
-          "Value": 1.0
-        },
-        "TransportMaximum": {
-          "ScalarMassPerTime": {
-            "Value": "Infinity",
-            "Unit": "mg/min"
-          }
-        }
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46fd2ba941434bece2bf53b6bccc1d109218ad7b8aabc5a88ec46824ab282b91
+size 588

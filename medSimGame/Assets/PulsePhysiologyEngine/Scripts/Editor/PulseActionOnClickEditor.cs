@@ -1,20 +1,3 @@
-﻿/* Distributed under the Apache License, Version 2.0.
-   See accompanying NOTICE file for details.*/
-
-using UnityEngine;
-using UnityEditor;
-
-[CustomEditor(typeof(PulseActionOnClick), true)]
-public class PulseActionOnClickEditor : PulseEngineControllerEditor
-{
-  override internal void DrawProperties()
-  {
-    GUI.enabled = Application.isPlaying;
-
-    var obj = target as PulseActionOnClick;
-    if (GUILayout.Button("Run Action"))
-    {
-      obj.RunAction();
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81182294d8a7683c4a32b72f4d3ff39eb458a8688d9a5e4d8284f0cee382b197
+size 476

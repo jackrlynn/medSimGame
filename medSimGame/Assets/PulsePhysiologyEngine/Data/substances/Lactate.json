@@ -1,31 +1,3 @@
-{
-  "Name": "Lactate",
-  "MolarMass": {
-    "ScalarMassPerAmount": {
-      "Value": 89.07,
-      "Unit": "g/mol"
-    }
-  },
-  "State": "Liquid",
-  "Clearance": {
-    "RenalClearance": {
-      "Regulation": {
-        "ChargeInBlood": "Negative",
-        "FractionUnboundInPlasma": {
-          "Scalar0To1": {
-            "Value": 1.0
-          }
-        },
-        "ReabsorptionRatio": {
-          "Value": 0.114
-        },
-        "TransportMaximum": {
-          "ScalarMassPerTime": {
-            "Value": 0.075,
-            "Unit": "g/min"
-          }
-        }
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:074a2cb072c6dcae2adafeab85ecd89b72cb9f17ef7202f268048763b683e9b5
+size 583
