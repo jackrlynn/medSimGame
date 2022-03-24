@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{711E0590-5A40-7A31-6B7D-EA79FE3AFB27}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HeartPlayer.cs">
+    <Files>
+      <File FileName="Assets/Scripts/HeartPlayer.cs" Line="128" Column="10" />
+      <File FileName="Assets/Scripts/Player.cs" Line="33" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="medSimGame" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d2fe7c03-3d7a-4ff5-83c3-161d6ade108d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
